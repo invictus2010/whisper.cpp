@@ -306,6 +306,7 @@ The [stream](examples/stream) tool samples the audio every half a second and run
 More info is available in [issue #10](https://github.com/ggerganov/whisper.cpp/issues/10).
 
 ```java
+make stream
 ./stream -m ./models/ggml-base.en.bin -t 8 --step 500 --length 5000
 ```
 
